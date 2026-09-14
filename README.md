@@ -1,2 +1,5 @@
-# idiopatia
-Repositório do aplicativo "Idiopatia", que serve para registros pessoais de pacientes com idiopatias diversas.
+# Idiopatia
+Repositório do aplicativo "Idiopatia", uma ferramenta voltada para o registo pessoal de manifestações clínicas, periódicas ou esporádicas, em pacientes com patologias idiopáticas.
+
+## Licença
+Este projeto está protegido por direitos de autor. Consulte o ficheiro [LICENSE.md](LICENSE.md) para conhecer os termos de utilização, que proíbem a modificação e a venda do código.
