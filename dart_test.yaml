@@ -1,0 +1,3 @@
+tags:
+  screenshots:
+    skip: "Gera capturas com datas de hoje. Rode: flutter test --tags screenshots --run-skipped --update-goldens"

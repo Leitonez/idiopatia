@@ -1,0 +1,87 @@
+import '../data/models.dart';
+
+/// Textos usados em CSV e PDF, fornecidos pela camada de interface para que
+/// os serviços de exportação não dependam do Flutter.
+class ReportStrings {
+  const ReportStrings({
+    required this.reportTitle,
+    required this.patient,
+    required this.age,
+    required this.sex,
+    required this.condition,
+    required this.period,
+    required this.generatedOn,
+    required this.summary,
+    required this.crisesCount,
+    required this.averageDuration,
+    required this.maxDuration,
+    required this.daysSinceLast,
+    required this.averageInterval,
+    required this.byIntensity,
+    required this.triggerRanking,
+    required this.crises,
+    required this.medicationUses,
+    required this.type,
+    required this.crisis,
+    required this.medication,
+    required this.date,
+    required this.start,
+    required this.end,
+    required this.ongoing,
+    required this.duration,
+    required this.intensity,
+    required this.triggers,
+    required this.unknownTrigger,
+    required this.dose,
+    required this.linkedCrisis,
+    required this.notes,
+    required this.none,
+    required this.privacyFooter,
+    required this.intensityLabel,
+    required this.sexLabel,
+    required this.formatDate,
+    required this.formatDateTime,
+    required this.formatDuration,
+    required this.yearsLabel,
+  });
+
+  final String reportTitle,
+      patient,
+      age,
+      sex,
+      condition,
+      period,
+      generatedOn,
+      summary,
+      crisesCount,
+      averageDuration,
+      maxDuration,
+      daysSinceLast,
+      averageInterval,
+      byIntensity,
+      triggerRanking,
+      crises,
+      medicationUses,
+      type,
+      crisis,
+      medication,
+      date,
+      start,
+      end,
+      ongoing,
+      duration,
+      intensity,
+      triggers,
+      unknownTrigger,
+      dose,
+      linkedCrisis,
+      notes,
+      none,
+      privacyFooter;
+  final String Function(Intensity) intensityLabel;
+  final String Function(Sex) sexLabel;
+  final String Function(DateTime) formatDate;
+  final String Function(DateTime) formatDateTime;
+  final String Function(Duration) formatDuration;
+  final String Function(int years) yearsLabel;
+}
